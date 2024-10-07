@@ -7,11 +7,16 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.activity.OnBackPressedCallback
+
+
 
 class Dashboard : AppCompatActivity() {
 
     private lateinit var Logout:Button
     private lateinit var active:Button
+
+    private var counter = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,6 +41,15 @@ class Dashboard : AppCompatActivity() {
             val intent = Intent(this, ActiveKeyDashboard::class.java)
             startActivity(intent)
         }
+
+        onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
+            override fun handleOnBackPressed() {
+                counter++
+                if (counter == 2) {
+                    finishAffinity()  // This will close the app or activity
+                }
+            }
+        })
 
     }
 }
