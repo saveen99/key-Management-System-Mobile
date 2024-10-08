@@ -39,15 +39,16 @@
                 android:textColor="@color/main_color"
                 android:layout_marginBottom="20dp"/>
 
-            <!-- Assuming you wanted a Spinner (Dropdown), not just a 'Dropdown' element -->
-            <Spinner
+            <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:id="@+id/keyDropdown"
-                android:layout_marginTop="20dp"
+                android:id="@+id/keyname"
                 android:background="@drawable/custom_edittext"
-                android:autofillHints="Key Name"
-                android:padding="8dp"/>
+                android:layout_marginTop="40dp"
+                android:padding="8dp"
+                android:hint="Key Name"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp"/>
 
             <EditText
                 android:layout_width="match_parent"
@@ -56,7 +57,7 @@
                 android:background="@drawable/custom_edittext"
                 android:layout_marginTop="40dp"
                 android:padding="8dp"
-                android:hint="Taken by"
+                android:hint="Taken by (Name)"
                 android:textColor="@color/black"
                 android:drawablePadding="8dp"/>
 

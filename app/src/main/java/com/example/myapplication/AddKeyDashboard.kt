@@ -21,21 +21,5 @@ class AddKeyDashboard : AppCompatActivity() {
             insets
         }
 
-        val keyDropdown: Spinner = findViewById(R.id.keyDropdown)
-
-        // Create an ArrayAdapter using the string array and the custom layout
-        val adapter: ArrayAdapter<CharSequence> = ArrayAdapter.createFromResource(
-            this,
-            R.array.key_options,
-            R.layout.custom_spinner_item
-        )
-
-        // Specify the layout to use when the list of choices appears
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-
-        // Apply the adapter to the spinner
-        keyDropdown.adapter = adapter
-
-
     }
 }
