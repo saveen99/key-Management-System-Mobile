@@ -26,8 +26,8 @@ class Dashboard : AppCompatActivity() {
         setContentView(R.layout.activity_dashboard)
 
         Logout=findViewById(R.id.logout)
-        active=findViewById(R.id.activeKeys)
-        add=findViewById(R.id.addKeys)
+        active=findViewById(R.id.activekey)
+        add=findViewById(R.id.addkey)
         histry=findViewById(R.id.history)
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.dashoard)) { v, insets ->

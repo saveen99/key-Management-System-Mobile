@@ -9,27 +9,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/background"
+    android:background="@drawable/bb"
     tools:context=".Dashboard">
 
 
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="350dp"
-        android:layout_height="650dp"
-        android:layout_margin="30dp"
-        app:cardCornerRadius="30dp"
-        app:cardElevation="20dp">
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_gravity="center_horizontal"
-            android:padding="24dp"
-            android:background="@color/white"
-            android:gravity="center">
 
             <TextView
                 android:layout_width="match_parent"
@@ -44,38 +28,51 @@
                 android:layout_marginBottom="50dp"/>
 
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:text="Active Keys"
-                android:id="@+id/activeKeys"
-                android:textSize="18sp"
-                android:layout_marginTop="50dp"
-                android:backgroundTint="@color/main_color"
-                android:textColor="@color/white"
-                app:cornerRadius = "20dp"/>
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:text="Add Keys"
-                android:id="@+id/addKeys"
-                android:textSize="18sp"
-                android:layout_marginTop="30dp"
-                android:backgroundTint="@color/main_color"
-                android:textColor="@color/white"
-                app:cornerRadius = "20dp"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="ACTIVE KEYS"
+        android:id="@+id/activekey"
+        android:textSize="20sp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/main_color"
+        android:textColor="@color/white"
+        app:cornerRadius="15dp"/>
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:text="History"
-                android:id="@+id/history"
-                android:textSize="18sp"
-                android:layout_marginTop="30dp"
-                android:backgroundTint="@color/main_color"
-                android:textColor="@color/white"
-                app:cornerRadius = "20dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="ADD KEYS"
+        android:id="@+id/addkey"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/main_color"
+        android:textColor="@color/white"
+        app:cornerRadius="15dp"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="HISTORY"
+        android:id="@+id/history"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/main_color"
+        android:textColor="@color/white"
+        app:cornerRadius="15dp"/>
+
+
+
+
 
             <!-- Empty View to push the Logout button to the bottom -->
             <View
@@ -90,18 +87,11 @@
                 android:textSize="18sp"
                 android:text="Logout"
                 android:textColor="@color/logout"
-                android:layout_marginBottom="30dp"
-                android:backgroundTint="@color/white"
+                android:layout_marginBottom="80dp"
+                android:backgroundTint="@color/transparent"
                 android:drawableLeft="@drawable/baseline_logout_24"
                 app:cornerRadius = "20dp"
                 android:gravity="bottom"/>
-
-        </LinearLayout>
-
-
-
-
-    </androidx.cardview.widget.CardView>
 
 
 

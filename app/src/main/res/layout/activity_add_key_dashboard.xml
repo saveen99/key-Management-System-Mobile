@@ -9,24 +9,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/background"
+    android:background="@drawable/bb"
     tools:context=".AddKeyDashboard">
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="350dp"
-        android:layout_height="650dp"
-        android:layout_margin="30dp"
-        app:cardCornerRadius="30dp"
-        app:cardElevation="20dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_gravity="center_horizontal"
-            android:padding="24dp"
-            android:background="@color/white"
-            android:gravity="center">
 
             <TextView
                 android:layout_width="match_parent"
@@ -47,18 +32,22 @@
                 android:textSize="16dp"
                 android:textStyle="bold"
                 android:textColor="@color/main_color"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:layout_marginBottom="7dp"
                 />
 
 
             <EditText
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="65dp"
                 android:id="@+id/keyname"
                 android:hint="Enter Key Name"
                 android:background="@drawable/custom_edittext"
                 android:padding="8dp"
                 android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:drawablePadding="8dp"/>
 
             <TextView
@@ -70,17 +59,21 @@
                 android:layout_marginTop="10dp"
                 android:textStyle="bold"
                 android:textColor="@color/main_color"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:layout_marginBottom="7dp"
                 />
 
             <EditText
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="65dp"
                 android:id="@+id/takenby"
                 android:hint="Enter Taken by Name"
                 android:background="@drawable/custom_edittext"
                 android:padding="8dp"
                 android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:drawablePadding="8dp"/>
 
             <TextView
@@ -92,33 +85,36 @@
                 android:textStyle="bold"
                 android:layout_marginTop="10dp"
                 android:textColor="@color/main_color"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:layout_marginBottom="7dp"
                 />
 
             <EditText
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="65dp"
                 android:id="@+id/number"
                 android:hint="Enter Number"
                 android:background="@drawable/custom_edittext"
                 android:padding="8dp"
                 android:textColor="@color/black"
                 android:drawablePadding="8dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:inputType="number"/>
 
             <!-- Updated to use MaterialButton for corner radius support -->
             <com.google.android.material.button.MaterialButton
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
+                android:layout_height="75dp"
                 android:text="ADD"
                 android:id="@+id/add"
                 android:textSize="18sp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="20dp"
                 android:backgroundTint="@color/main_color"
                 android:textColor="@color/white"
-                app:cornerRadius="20dp"/>
-        </LinearLayout>
-
-    </androidx.cardview.widget.CardView>
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cornerRadius="15dp"/>
 
 </LinearLayout>
