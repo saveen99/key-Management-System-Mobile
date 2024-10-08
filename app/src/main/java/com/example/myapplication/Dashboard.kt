@@ -37,8 +37,15 @@ class Dashboard : AppCompatActivity() {
         }
 
         Logout.setOnClickListener {
+
+            val sharedPreferences = getSharedPreferences("MyAppPrefs", MODE_PRIVATE)
+            val editor = sharedPreferences.edit()
+            editor.putBoolean("isLoggedIn", false)
+            editor.apply()
+
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
+            finish()  // Close the dashboard activity
         }
 
         active.setOnClickListener {
