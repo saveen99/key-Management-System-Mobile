@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
+
 <!-- Button background color -->
-<solid android:color="@color/white" />
+<solid android:color="@color/logout" />
 
 <!-- Button border -->
 <stroke
     android:width="2dp"
-    android:color="@color/black" /> <!-- Change border_color to your desired color -->
+    android:color="@color/black" />
 
-<!-- Corner radius -->
 <corners android:radius="20dp" />
+
 </shape>

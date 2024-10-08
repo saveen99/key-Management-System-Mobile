@@ -38,6 +38,7 @@
                 android:id="@+id/dashboardText"
                 android:textSize="36sp"
                 android:textAlignment="center"
+                android:paddingTop="30dp"
                 android:textStyle="bold"
                 android:textColor="@color/main_color"
                 android:layout_marginBottom="50dp"/>
@@ -49,7 +50,7 @@
                 android:text="Active Keys"
                 android:id="@+id/activeKeys"
                 android:textSize="18sp"
-                android:layout_marginTop="90dp"
+                android:layout_marginTop="50dp"
                 android:backgroundTint="@color/main_color"
                 android:textColor="@color/white"
                 app:cornerRadius = "20dp"/>

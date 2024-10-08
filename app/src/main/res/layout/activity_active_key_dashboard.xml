@@ -27,8 +27,7 @@
             android:orientation="vertical"
             android:layout_gravity="center_horizontal"
             android:padding="24dp"
-            android:background="@color/white"
-            android:gravity="center">
+            android:background="@color/white">
 
             <TextView
                 android:layout_width="match_parent"
@@ -39,7 +38,10 @@
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textColor="@color/main_color"
-                android:layout_marginBottom="20dp"/>
+                android:layout_marginBottom="20dp"
+                android:paddingTop="30dp"
+                android:paddingBottom="20dp"
+                />
 
 
             <Button
@@ -49,8 +51,9 @@
                 android:id="@+id/key1"
                 android:textSize="18sp"
                 android:layout_marginTop="10dp"
-                android:background="@drawable/button_background"
-                android:textColor="@color/white"/>
+                android:textColor="@color/white"
+                android:backgroundTint="@color/main_color"
+                app:cornerRadius = "20dp"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -59,7 +62,8 @@
                 android:id="@+id/key2"
                 android:textSize="18sp"
                 android:layout_marginTop="30dp"
-                android:background="@drawable/button_background"
+                android:backgroundTint="@color/main_color"
+                app:cornerRadius = "20dp"
                 android:textColor="@color/white"/>
 
             <Button
@@ -69,7 +73,8 @@
                 android:id="@+id/key3"
                 android:textSize="18sp"
                 android:layout_marginTop="30dp"
-                android:background="@drawable/button_background"
+                android:backgroundTint="@color/main_color"
+                app:cornerRadius = "20dp"
                 android:textColor="@color/white"/>
 
 
