@@ -13,8 +13,8 @@
     tools:context=".AddKeyDashboard">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="350dp"
+        android:layout_height="650dp"
         android:layout_margin="30dp"
         app:cardCornerRadius="30dp"
         app:cardElevation="20dp">

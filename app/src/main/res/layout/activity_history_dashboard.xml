@@ -4,13 +4,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/active_dashboard"
+    android:id="@+id/history_dashboard"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
     android:background="@drawable/background"
-    tools:context=".ActiveKeyDashboard">
+    tools:context=".HistoryDashboard">
 
 
     <androidx.cardview.widget.CardView
@@ -33,7 +33,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ACTIVE KEYS"
+                android:text="HISTORY"
                 android:id="@+id/activeKeyName"
                 android:textSize="36sp"
                 android:textAlignment="center"

@@ -16,6 +16,7 @@ class Dashboard : AppCompatActivity() {
     private lateinit var Logout:Button
     private lateinit var active:Button
     private lateinit var add:Button
+    private lateinit var histry:Button
 
     private var counter = 0
 
@@ -27,6 +28,7 @@ class Dashboard : AppCompatActivity() {
         Logout=findViewById(R.id.logout)
         active=findViewById(R.id.activeKeys)
         add=findViewById(R.id.addKeys)
+        histry=findViewById(R.id.history)
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.dashoard)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
@@ -55,6 +57,11 @@ class Dashboard : AppCompatActivity() {
 
         add.setOnClickListener {
             val intent = Intent(this, AddKeyDashboard::class.java)
+            startActivity(intent)
+        }
+
+        histry.setOnClickListener {
+            val intent = Intent(this,HistoryDashboard::class.java)
             startActivity(intent)
         }
 
