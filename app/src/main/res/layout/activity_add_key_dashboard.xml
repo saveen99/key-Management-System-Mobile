@@ -37,36 +37,69 @@
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textColor="@color/main_color"
-                android:layout_marginBottom="20dp"/>
+                android:layout_marginBottom="50dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="     Key Name"
+                android:id="@+id/KeyNametxt"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/main_color"
+                android:layout_marginBottom="7dp"
+                />
+
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:id="@+id/keyname"
                 android:background="@drawable/custom_edittext"
-                android:layout_marginTop="40dp"
                 android:padding="8dp"
                 android:hint="Key Name"
                 android:textColor="@color/black"
                 android:drawablePadding="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="     Taken by(Name)"
+                android:id="@+id/takenbytxt"
+                android:textSize="16dp"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/main_color"
+                android:layout_marginBottom="7dp"
+                />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:id="@+id/takenby"
                 android:background="@drawable/custom_edittext"
-                android:layout_marginTop="40dp"
                 android:padding="8dp"
                 android:hint="Taken by (Name)"
                 android:textColor="@color/black"
                 android:drawablePadding="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="     Number"
+                android:id="@+id/numbertxt"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/main_color"
+                android:layout_marginBottom="7dp"
+                />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:id="@+id/number"
                 android:background="@drawable/custom_edittext"
-                android:layout_marginTop="40dp"
                 android:padding="8dp"
                 android:hint="Number"
                 android:textColor="@color/black"
