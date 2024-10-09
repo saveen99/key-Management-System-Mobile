@@ -11,9 +11,6 @@
     android:background="@drawable/bb"
     tools:context=".HistoryDashboard">
 
-
-
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -26,7 +23,6 @@
                 android:layout_marginBottom="20dp"
                 android:paddingTop="30dp"
                 android:paddingBottom="20dp"/>
-
 
             <Button
                 android:layout_width="match_parent"
@@ -41,7 +37,6 @@
                 app:cornerRadius = "15dp"
                 android:textColor="@color/black" />
 
-
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
@@ -54,9 +49,5 @@
                 android:backgroundTint="@color/white"
                 app:cornerRadius = "15dp"
                 android:textColor="@color/black"/>
-
-
-
-
 
 </LinearLayout>
