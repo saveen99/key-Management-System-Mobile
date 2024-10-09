@@ -70,10 +70,6 @@
         android:textColor="@color/white"
         app:cornerRadius="15dp"/>
 
-
-
-
-
             <!-- Empty View to push the Logout button to the bottom -->
             <View
                 android:layout_width="0dp"
