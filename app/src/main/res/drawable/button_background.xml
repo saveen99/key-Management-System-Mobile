@@ -5,12 +5,12 @@
     <!-- Button background color -->
     <solid android:color="@color/white" />
 
-    <!-- Optional: Add a border -->
+    <!-- Add a border -->
     <stroke
         android:width="2dp"
         android:color="@android:color/black" />
 
-    <!-- Optional: Add corner radius -->
+    <!-- Add corner radius -->
     <corners android:radius="8dp" />
 
 </shape>
