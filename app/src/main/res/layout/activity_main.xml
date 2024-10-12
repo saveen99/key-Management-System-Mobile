@@ -16,12 +16,23 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="LOGIN"
-                android:id="@+id/loginText"
+                android:text="KEY MANAGEMENT"
+                android:id="@+id/keymanagementText"
                 android:textSize="36sp"
                 android:textAlignment="center"
+                android:layout_marginTop="60dp"
                 android:textStyle="bold"
                 android:textColor="@color/main_color"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SYSTEM"
+        android:id="@+id/kmSystemText"
+        android:textSize="36sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/main_color"/>
 
 
             <ImageView
@@ -75,5 +86,23 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 app:cornerRadius = "20dp"/>
+
+    <!-- Empty View to push the Logout button to the bottom -->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Powered by @EndlessRaven"
+        android:id="@+id/loginText"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/main_color"/>
+
 
 </LinearLayout>
